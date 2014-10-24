@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{BEEB0640-5D2B-4545-95FE-9CD1901DB5DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cordova.Droid.Test</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>Cordova.Droid.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.3</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PluginStub.cs" />
+    <Compile Include="ActivityPlugin.cs" />
+    <Compile Include="Activities\Jqmtabbackbutton.cs" />
+    <Compile Include="Activities\Splashscreen.cs" />
+    <Compile Include="Activities\Iframe.cs" />
+    <Compile Include="Activities\Backbuttonmultipage.cs" />
+    <Compile Include="Activities\Backgroundcolor.cs" />
+    <Compile Include="Activities\Basicauth.cs" />
+    <Compile Include="Activities\Menus.cs" />
+    <Compile Include="Activities\Loading.cs" />
+    <Compile Include="Activities\Fullscreen.cs" />
+    <Compile Include="Activities\Htmlnotfound.cs" />
+    <Compile Include="Activities\Lifecycle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Cordova.Droid.Binding\Cordova.Droid.Binding.csproj">
+      <Project>{59F26191-9DEE-45CC-ADDC-E90CCA4D3DDE}</Project>
+      <Name>Cordova.Droid.Binding</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\www\" />
+    <Folder Include="Activities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\www\cordova.js" />
+    <AndroidAsset Include="Assets\www\cordova_plugins.js" />
+    <AndroidAsset Include="Assets\www\index.html" />
+    <AndroidAsset Include="Assets\www\main.js" />
+    <AndroidAsset Include="Assets\www\master.css" />
+    <AndroidAsset Include="Assets\www\backbuttonmultipage\index.html" />
+    <AndroidAsset Include="Assets\www\backbuttonmultipage\sample2.html" />
+    <AndroidAsset Include="Assets\www\backbuttonmultipage\sample3.html" />
+    <AndroidAsset Include="Assets\www\background\index.html" />
+    <AndroidAsset Include="Assets\www\background\index2.html" />
+    <AndroidAsset Include="Assets\www\backgroundcolor\index.html" />
+    <AndroidAsset Include="Assets\www\basicauth\index.html" />
+    <AndroidAsset Include="Assets\www\fullscreen\index.html" />
+    <AndroidAsset Include="Assets\www\htmlnotfound\error.html" />
+    <AndroidAsset Include="Assets\www\iframe\index.html" />
+    <AndroidAsset Include="Assets\www\iframe\index2.html" />
+    <AndroidAsset Include="Assets\www\jqmtabbackbutton\index.html" />
+    <AndroidAsset Include="Assets\www\jqmtabbackbutton\tab1.html" />
+    <AndroidAsset Include="Assets\www\jqmtabbackbutton\tab2.html" />
+    <AndroidAsset Include="Assets\www\jqmtabbackbutton\tab3.html" />
+    <AndroidAsset Include="Assets\www\lifecycle\index.html" />
+    <AndroidAsset Include="Assets\www\lifecycle\index2.html" />
+    <AndroidAsset Include="Assets\www\menus\index.html" />
+    <AndroidAsset Include="Assets\www\splashscreen\index.html" />
+    <AndroidAsset Include="Assets\www\userwebview\index.html" />
+    <AndroidAsset Include="Assets\www\whitelist\index.html" />
+    <AndroidAsset Include="Assets\www\whitelist\index2.html" />
+    <AndroidAsset Include="Assets\www\xhr\index.html" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Cordova.Droid.Test">
+  <uses-sdk android:minSdkVersion="18" />
+  <application android:label="Cordova.Droid.Test" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Cordova.Droid.Test" android:name="cordova.droid.test.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Jqmtabbackbutton" android:name="cordova.droid.test.Jqmtabbackbutton" />
+    <activity android:label="Splashscreen" android:name="cordova.droid.test.Splashscreen" />
+    <activity android:label="Iframe" android:name="cordova.droid.test.Iframe" />
+    <activity android:label="Backbuttonmultipage" android:name="cordova.droid.test.Backbuttonmultipage" />
+    <activity android:label="Backgroundcolor" android:name="cordova.droid.test.Backgroundcolor" />
+    <activity android:label="Basicauth" android:name="cordova.droid.test.Basicauth" />
+    <activity android:label="Menus" android:name="cordova.droid.test.Menus" />
+    <activity android:label="Loading" android:name="cordova.droid.test.Loading" />
+    <activity android:label="Fullscreen" android:name="cordova.droid.test.Fullscreen" />
+    <activity android:label="Htmlnotfound" android:name="cordova.droid.test.Htmlnotfound" />
+    <activity android:label="Lifecycle" android:name="cordova.droid.test.Lifecycle" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Cordova.Droid.Test.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Cordova.Droid.Test" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

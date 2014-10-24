@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cordova.Droid.Test/Activities/Lifecycle.cs">
+    <Files>
+      <File FileName="Cordova.Droid.Test/Assets/www/index.html" Line="83" Column="83" />
+      <File FileName="Cordova.Droid.Test/Activities/Menus.cs" Line="1" Column="1" />
+      <File FileName="Cordova.Droid.Test/Activities/Splashscreen.cs" Line="1" Column="1" />
+      <File FileName="Cordova.Droid.Test/Activities/Backbuttonmultipage.cs" Line="1" Column="1" />
+      <File FileName="Cordova.Droid.Test/Activities/Basicauth.cs" Line="71" Column="71" />
+      <File FileName="Cordova.Droid.Test/Activities/Loading.cs" Line="1" Column="1" />
+      <File FileName="Cordova.Droid.Test/Activities/Backgroundcolor.cs" Line="1" Column="1" />
+      <File FileName="Cordova.Droid.Test/Activities/Fullscreen.cs" Line="4" Column="4" />
+      <File FileName="Cordova.Droid.Test/Activities/Htmlnotfound.cs" Line="1" Column="1" />
+      <File FileName="Cordova.Droid.Test/Activities/Lifecycle.cs" Line="3" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Test/MainActivity.cs" line="52" column="1" />
+      <Breakpoint file="/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Test/MainActivity.cs" line="58" column="1" />
+      <Breakpoint file="/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Test/Iframe.cs" line="26" column="1" />
+      <Breakpoint file="/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Test/Iframe.cs" line="23" column="1" />
+      <Breakpoint file="/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Test/Activities/Loading.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

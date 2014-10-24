@@ -1,0 +1,14 @@
+Cordova.Droid.Test.MainActivity;cordova.droid.test.MainActivity
+Cordova.Droid.Test.PluginStub;cordova.droid.test.PluginStub
+Cordova.Droid.Test.ActivityPlugin;cordova.droid.test.ActivityPlugin
+Cordova.Droid.Test.Jqmtabbackbutton;cordova.droid.test.Jqmtabbackbutton
+Cordova.Droid.Test.Splashscreen;cordova.droid.test.Splashscreen
+Cordova.Droid.Test.Iframe;cordova.droid.test.Iframe
+Cordova.Droid.Test.Backbuttonmultipage;cordova.droid.test.Backbuttonmultipage
+Cordova.Droid.Test.Backgroundcolor;cordova.droid.test.Backgroundcolor
+Cordova.Droid.Test.Basicauth;cordova.droid.test.Basicauth
+Cordova.Droid.Test.Menus;cordova.droid.test.Menus
+Cordova.Droid.Test.Loading;cordova.droid.test.Loading
+Cordova.Droid.Test.Fullscreen;cordova.droid.test.Fullscreen
+Cordova.Droid.Test.Htmlnotfound;cordova.droid.test.Htmlnotfound
+Cordova.Droid.Test.Lifecycle;cordova.droid.test.Lifecycle

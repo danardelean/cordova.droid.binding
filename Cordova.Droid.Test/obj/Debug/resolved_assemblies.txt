@@ -1,0 +1,2 @@
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Test/bin/Debug/Cordova.Droid.Test.dll
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/bin/Debug/Cordova.Android.Binding.dll

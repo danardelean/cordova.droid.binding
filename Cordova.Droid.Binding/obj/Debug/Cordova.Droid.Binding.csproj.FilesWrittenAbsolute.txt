@@ -1,0 +1,12 @@
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Binding/obj/Debug/MonoAndroid,Version=v4.3.AssemblyAttribute.cs
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Binding/obj/Debug/Cordova.Droid.Binding.Jars.cordova-3.7.0-dev.jar
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Binding/bin/Debug/Cordova.Android.Binding.dll.mdb
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Binding/bin/Debug/Cordova.Android.Binding.dll
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Binding/obj/Debug/Cordova.Android.Binding.dll
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Android/Cordova.Android.Binding/obj/Debug/Cordova.Android.Binding.dll.mdb
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/obj/Debug/MonoAndroid,Version=v4.3.AssemblyAttribute.cs
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/obj/Debug/Cordova.Droid.Binding.Jars.cordova-3.7.0-dev.jar
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/bin/Debug/Cordova.Android.Binding.dll.mdb
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/bin/Debug/Cordova.Android.Binding.dll
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/obj/Debug/Cordova.Android.Binding.dll
+/Users/DanDan/Projects/Xamarin Bindings/Cordova.Droid/Cordova.Droid.Binding/obj/Debug/Cordova.Android.Binding.dll.mdb
